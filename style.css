@@ -1,8 +1,147 @@
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
 body {
-    background: linear-gradient(109.6deg, rgb(43, 1, 91) 13.4%, rgb(122, 2, 54) 100.2%);
+    background: #1E2749;
+    margin:auto;
+}
+
+header {
+  background-color: #e4d9ff;
+  padding: 20px;
+  margin: 10%;
+  border-radius: 15px;
 }
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: monospace;
     text-shadow: 5px 5px 5px rgba(27, 28, 27, 0.4);
-    color: #ffffff;
+    color: #30343f;
+    text-align: center;
+    font-size: 35px;
+}
+
+h2 {
+    font-family:monospace;
+    text-align:center;
+    color: #fff;
+}
+
+.aboutMe {
+    text-align:center;
+    font-family:'Courier New', Courier, monospace;
+    color:#e4d9ff;
+    margin: auto;
+    display: block;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    text-align: center;
+}
+button {
+    border-radius: 12px;
+    background: white;
+    width: 100px;
+    height: 40px;
+    border:none;
+    font-size: 20px;
+    color:black;
+    transition: .3s ease-in-out;
+}
+
+section {
+    height: 440px;
+    width: 45%;
+    background-color:#e4d9ff;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    margin: auto;
+    align-items:center;
+    justify-content:center;
+    border-radius:15px;
+    flex-direction:row;
+  }
+
+  .container {
+      width:50%;
+      max-width:400px;
+      margin: 0 auto;
+      padding: 5px;
+      border-radius:15px;
+  }
+
+  .form-group {
+      width:100%;
+      margin-top:10px;
+      font-size: 16px;
+  }
+  .form-group input,
+  .form-group textarea {
+    width:100%;
+    font-size: 14px;
+    border: 1px solid #30343f;
+  }
+
+  textarea {
+      resize:vertical;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: block;
+}
+
+li a {
+    display: block;
+    width: 60px;
+    padding: 20px;
+    background-color:black;
+}
+
+footer {
+  background-color: #e4d9ff;
+  padding: 10px;
+  text-align: right;
+  color: #273469;
+  margin: 10%;
+  border-radius: 15px;
+}
+h4 {
+    color:#e4d9ff;
+}
+#center {
+    text-align:center;
+}
+
+button[type="submit"] {
+    width: 100%;
+    border:none;
+    outline:none;
+    padding: 15px;
+    font-size:16px;
+}
+
+button[type="submit"]:hover {
+    background-color:grey;
+}
+
+#status {
+    width: 45%;
+    max-width:400px;
+    padding: 10px;
+    margin: 0 auto;
+    text-align:center;
 }
